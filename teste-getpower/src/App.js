@@ -1,9 +1,11 @@
 import './App.css';
+import Login from './screens/Login/index';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>iniciando projeto</h1>
+      <Login />
     </div>
   );
 }
