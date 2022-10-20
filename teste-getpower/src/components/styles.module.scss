@@ -1,0 +1,50 @@
+.container_fluid {
+  height: 700px;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(2, 7, 29);
+  color: white;
+
+  img {
+    width: 100px;
+    border-radius: 100px;
+  }
+
+  .yelow {
+    color: rgb(238, 116, 34);
+  }
+
+  .opacity {
+    background-color: rgba(190, 190, 186, 0.288);
+    height: 40px;
+    display: flex;
+    align-items: center;
+  }
+
+  div {
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    span {
+      height: 40px;
+    }
+  }
+
+
+    section {
+      display: flex;
+      flex-direction: column;
+      align-items:center;
+      
+      .logo {
+        width: 20px;
+        border-radius: 100px;
+      }
+
+      section {
+        display: flex;
+        flex-direction: row;
+      }
+    }
+}
