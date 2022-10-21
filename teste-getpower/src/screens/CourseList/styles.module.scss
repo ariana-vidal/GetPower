@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  
+  .div2 {
+    width: 80%;
+
+    .message {
+      background-color:rgb(238, 116, 34);;
+      color: white;
+    }
+  }
+}
