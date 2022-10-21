@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import styles from './styles.module.scss';
@@ -32,9 +33,13 @@ export default function Login() {
         </Form.Group>
         <section>
           <span>Esqueceu sua senha?</span>
-          <Button variant="primary" type="submit">
-            Entrar
-          </Button>
+          <Link
+            to="/courselist"
+          >
+            <Button variant="primary" type="submit">
+              Entrar
+            </Button>
+          </Link>
         </section>
         <span>Não tem conta?</span>
         <spanh>Criar uma agora</spanh>
