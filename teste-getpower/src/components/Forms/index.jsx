@@ -2,6 +2,7 @@ import React from 'react';
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
+import { Link } from 'react-router-dom';
 import styles from './styles.module.scss';
 
 export default function Forms() {
@@ -41,6 +42,11 @@ export default function Forms() {
         </Form.Select>
       </section>
       <button className={ styles.button } type="button">Próxima etapa</button>
+      <Link
+        to="/courselist"
+      >
+        <button className={ styles.button } type="button">Voltar</button>
+      </Link>
     </div>
   );
 }
